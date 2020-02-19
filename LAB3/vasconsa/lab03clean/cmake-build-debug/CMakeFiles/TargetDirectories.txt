@@ -1,4 +1,0 @@
-/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/CMakeFiles/pcg.dir
-/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/CMakeFiles/labvariacao1.dir
