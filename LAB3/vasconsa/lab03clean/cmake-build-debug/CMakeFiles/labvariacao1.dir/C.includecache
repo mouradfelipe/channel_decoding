@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/labvariacao1.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+pcg_variants.h
+/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg_variants.h
+math.h
+-
+time.h
+-
+
+/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg_variants.h
+inttypes.h
+-
+

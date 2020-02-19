@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="labvariacao1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcg">
+				<Option output="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/libpcg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DM3"/>
+					<Add option="-DnumIter=50"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcg"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcg/fast">
+				<Option output="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/libpcg.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DM3"/>
+					<Add option="-DnumIter=50"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcg/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="labvariacao1">
+				<Option output="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/labvariacao1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DM3"/>
+					<Add option="-DnumIter=50"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 labvariacao1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="labvariacao1/fast">
+				<Option output="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/labvariacao1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DM3"/>
+					<Add option="-DnumIter=50"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean"/>
+					<Add directory="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 labvariacao1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/1513\ MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/labvariacao1.c">
+			<Option target="labvariacao1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/include/pcg_variants.h">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-advance-128.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-advance-16.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-advance-32.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-advance-64.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-advance-8.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-global-32.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-global-64.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-output-128.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-output-16.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-output-32.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-output-64.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-output-8.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-rngs-128.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-rngs-16.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-rngs-32.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-rngs-64.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg-c-0.94/src/pcg-rngs-8.c">
+			<Option target="pcg"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/pcg_variants.h">
+			<Option target="labvariacao1"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/1513 MXTI/ITA/PROF/2SEM/ELE-32-L/LAB3/vasconsa/lab03clean/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
